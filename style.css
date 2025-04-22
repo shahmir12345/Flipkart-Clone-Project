@@ -1,0 +1,247 @@
+
+:root {
+    --blue: #63affa;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background-color: rgb(240, 226, 226);
+  }
+
+  header{
+    height: 15vh;
+    background-color: var(--blue);
+  }
+
+  .logo img{
+    width: 200px;
+  }
+
+  nav ul{
+     margin: 10px 20px 0;
+  }
+
+  nav ul li{
+    list-style: none;
+    padding: 0 25px;
+    font-size: large;
+    font-family: "Krub", sans-serif;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+  }
+
+  nav input{
+    width: 370px;
+    height: 23px;
+    margin: 8px 20px 0;
+    border-radius: 5px;
+    padding-left: 10px;
+
+    background-image: url("img/searchbarlogo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    font-family: "Krub", sans-serif;
+  }
+
+  nav button{
+    width: 55px;
+    height: 26px;
+    margin-top: 9px;
+    border-radius: 3px;
+    padding-bottom: 3px;
+    font-family: "Krub", sans-serif;
+  }
+
+  .Logintext{
+     margin-top: 10px;
+     margin-left: 8px;
+     font-family: "Krub", sans-serif;
+  }
+
+  .login img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+  .Carttext{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-family: "Krub", sans-serif;
+ }
+
+ .Cart img{
+   width: 20px;
+   height: 20px;
+   margin-top: 10px;
+   margin-left: 40px;
+ }
+
+ .container{
+    min-height: calc(100vh - 15vh - 14vh);
+ }
+
+ .slider img{
+    width: 80vw;
+    height: 60vh;
+    margin: 14px 0px;
+
+    animation-name: slider;
+    animation-duration: 4s;
+    /* animation-delay: 0.2s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+ }
+
+ .offerbox{
+    border: 1px solid gray;
+    margin: 15px 0;
+    background-color: white;
+    height: 20vh;
+ }
+
+ .images{
+     margin: 20px 20px;
+     font-family: "Krub", sans-serif;
+     padding-bottom: 20px;
+ }
+
+ .text-center{
+    text-align: center;
+ }
+
+ .WholeBoxContainer{
+     height: 40vh;
+     /* border: 1px solid grey; */
+ }
+
+ .container1{
+    width: 30vw;
+    height: 35vh;
+    background-color: rgb(247, 184, 67);
+    margin-left: 3vw;
+    margin-top: 10px;
+ }
+
+ .container1 img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+ }
+
+ .container1Text{
+    width: 15vw;
+    height: 25vh;
+ }
+
+ .container1image{
+    width: 200px;
+    height: 220px;
+ }
+
+ .container1image img{
+    width: 140px;
+  height: 200px;
+}
+
+ .motrolla{
+     margin-top: 10px;
+ }
+
+ .container2{
+    width: 30vw;
+    height: 35vh;
+    background-color: lightblue;
+    margin-left: 3vw;
+    margin-top: 10px;
+ }
+
+ .container2 img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+ }
+
+ .container2Text{
+    width: 15vw;
+    height: 25vh;
+ }
+
+ .container2image{
+    width: 240px;
+    height: 220px;
+ }
+
+ .container2image img{
+    width: 200px;
+  height: 200px;
+}
+
+ .container3{
+    width: 30vw;
+    height: 35vh;
+    background-color: rgb(231, 62, 62);
+    margin-left: 3vw;
+    margin-top: 10px;
+ }
+
+ .container3 img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+ }
+
+ .container3Text{
+    width: 15vw;
+    height: 25vh;
+ }
+
+ .container3image{
+    width: 240px;
+    height: 220px;
+ }
+
+ .container3image img{
+    width: 220px;
+  height: 200px;
+}
+
+ .offerSales{
+    border: 1px solid gray;
+    margin: 15px 0;
+    background-color: white;
+    height: 43vh;
+
+    overflow: scroll;
+ }
+ 
+ .OfferSalesimages{
+    margin: 20px 45px;
+    font-family: "Krub", sans-serif;
+ }
+
+ h2{
+    margin-left: 15px;
+    margin-top: 15px;
+ }
+
+   footer{
+    height: 14vh;
+    background-color: var(--blue);
+    font-family: "Krub", sans-serif;
+  }

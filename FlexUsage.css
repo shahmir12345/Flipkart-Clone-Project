@@ -1,0 +1,91 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+
+.ExtraText{
+    display: flex;
+  }
+
+.login{
+    display: flex;
+  }
+
+.Cart{
+    display: flex;
+}  
+
+.slider{
+    display: flex;
+    justify-content: center;
+}
+
+.offerbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container1{
+    display: flex;
+}
+
+.container1Text{
+    position: relative;
+    top: 80px;
+    right: 60px;
+
+    font-size: large;
+    font-weight: 600;
+}
+
+.container2{
+    display: flex;
+}
+
+.container2Text{
+    position: relative;
+    top: 80px;
+    right: 40px;
+
+    font-size: large;
+    font-weight: 600;
+}
+
+.container3{
+    display: flex;
+}
+
+.container3Text{
+    position: relative;
+    top: 80px;
+    right: 60px;
+
+    font-size: large;
+    font-weight: 600;
+}
+
+.offerSales{
+    display: flex;
+}
+
+.WholeBoxContainer{
+    display: flex;
+}
+
+.offerSales{
+    display: flex;
+}

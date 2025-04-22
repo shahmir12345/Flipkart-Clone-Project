@@ -1,0 +1,61 @@
+@media only screen and (max-width:1306px) {
+    header {
+        height: 26vh;
+    }
+
+    .ExtraText {
+        display: flex;
+        position: relative;
+        top: 46px;
+        right: 600px;
+        justify-content: center;
+    }
+
+    .searchbarContainer{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:1038px){
+    header{
+        height: 40vh;
+        justify-content: center;
+        align-items: start;
+    }
+
+    nav{
+        flex-direction: column;
+        width: 35vw;
+    }
+
+    div.logo{
+        display: flex;
+        justify-content: center;
+        width: 27vw;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    nav input{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .searchbarContainer{
+        width: 35vw;
+        display: flex;
+        justify-content: center;
+        height: 10vh;
+        margin-top: 10px;
+    }
+
+    .ExtraText{
+        display: flex;
+        justify-content: center;
+        width: 25vw;
+        position: initial;
+    }
+
+}
